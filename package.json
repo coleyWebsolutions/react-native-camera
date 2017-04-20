@@ -1,8 +1,8 @@
 {
-  "name": "react-native-camera",
+  "name": "react-native-camera-async",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lwansbrough/react-native-camera.git"
+    "url": "git+https://github.com/coleyWebsolutions/react-native-camera.git"
   },
   "version": "0.7.0",
   "description": "A Camera component for React Native. Also reads barcodes.",
@@ -13,7 +13,7 @@
   },
   "nativePackage": true,
   "license": "MIT",
-  "homepage": "https://github.com/lwansbrough/react-native-camera",
+  "homepage": "https://github.com/coleyWebsolutions/react-native-camera",
   "keywords": [
     "react-native",
     "react",
@@ -22,5 +22,12 @@
     "qr",
     "code",
     "barcode"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/lwansbrough/react-native-camera/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
